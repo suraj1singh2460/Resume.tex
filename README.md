@@ -1,1 +1,1 @@
-# It contains My Resume in PDF and also in Latex
+to view .tex files open via overleaf.com
