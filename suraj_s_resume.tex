@@ -1,0 +1,154 @@
+%-------------------------
+% Resume in Latex
+% Author : Suraj Singh
+%------------------------
+
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=grey,
+    }
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Suraj Singh}} & Email : \href{mailto:suraj1singh2460@gmail.com}{suraj1singh2460@gmail.com}\\
+  \href{https://www.linkedin.com/in/suraj-singh-a00881211/}{Linkedin: https://www.linkedin.com/in/suraj-singh-a00881211/} & Mobile : 9741578920 \\
+  \href{https://github.com/suraj1singh2460/}{Github:https://github.com/suraj1singh2460/} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {R V College of Engineering}{Bangalore}
+      {Electronics and Communication Engineering;  GPA: 6.65}{Dec 2019 - Sept 2023}
+
+    \resumeSubheading
+      {Sandur Polytechnic}{Sandur, Ballari}
+      {Diploma in Electronics and Communication Engineering; Percentage: 91.81 }{Jun 2017 - Oct 2019}
+      
+      \resumeSubheading
+        {SFS High School}{Koppal}
+      {Class X Percentage: 91.52}{Mar 2016 - Apr 2017}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{ C++, Python, C, SQL, Unix scripting, Embedded C, MATLAB, HTML, CSS, XML}
+	\resumeSubItem{Tools}{ MATLAB, LabVIEW, MySQL, MultiSim, Cadence, Xilinx Vivado, QualNet, Packet Tracer, PCB Circuit Design, Keil, Proteus, Android Studio }
+\resumeSubHeadingListEnd
+
+
+
+%-----------EXPERIENCE-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {FPGA Implementation to Ascertain Benign and Malignant Tumors by MRI Processing}{Bangalore}
+    {Design Engineer and Software Developer }{May 2022 - Sept 2022}
+    \resumeItemListStart
+        \resumeItem{Image Conversion}
+          {Designed and developed a program to perform image conversion from JPG/JPEG to Hex file and vice-versa using MATLAB Live editor}
+          \resumeItem{Edge Detection}
+          {Designed and developed a module to perform edge detection Sobel algorithm using Verilog code.}
+          \resumeItem{Tumor Analysis}{Designed and developed a analysis service which is responsible for analyzing the tumor size, type and its density using MATLAB GUI.}
+         
+      \resumeItemListEnd
+ 
+    \resumeSubheading
+    {SMART CANTEEN: ORDERING AND MANAGEMENT SYSTEM}{Bangalore}
+    {Software Developer }{Apr 2021 - Aug 2021}
+    \resumeItemListStart
+        \resumeItem{WEB Application}
+          {Designed front-end Web Application using Visual Studio and developed a SQL database for storing and retrieving of Order and Customer Details using MySQL.}
+         
+      \resumeItemListEnd
+   
+
+
+%-----------Awards-----------------
+\section{Honors and Awards}
+\begin{description}[font=$\bullet$]
+\item {Completed Diploma in Electronics and Communications with Gold Medal, 2017-2019.} 
+\item {Secured first place in Programming Using C in the SAN-TECH Mantra event organized by Sandur Polytechnic, 2019.} 
+\item {Secured 85th Rank in DCET conducted by KEA, 2019.}
+%\item {Selected in top 5 projects in Design Thinking for the topic SMART CANTEEN at RV College of Engineering 2021}
+%\resumeItem{Selected as best project for the topic FPGA}
+\end{description}
+%-------------------------------------------
+\end{document}
